@@ -1,0 +1,219 @@
+body{
+  background: #F9FAFB!important;
+}
+.menu-text{
+  color: #111827!important;
+  margin-top: 18px!important;
+  margin-left: 20px!important;
+  font-family: 'Inter'!important;
+  font-style: normal!important;
+  font-weight: 500!important;
+  font-size: 16px!important;
+  line-height: 150%!important;
+}
+.accordion-collapse{
+  p{
+    margin-top: -5px!important;
+  }
+}
+.menu-text1{
+  color: #111827!important;
+  margin-left: 20px!important;
+  font-family: 'Inter'!important;
+  font-style: normal!important;
+  font-weight: 500!important;
+  font-size: 16px!important;
+  line-height: 150%!important;
+}
+.badge1{
+  width: 20px;
+  height: 20px;
+  margin-left: 64px;
+  margin-top: 6px;
+}
+.images{
+  margin-left: 10px!important;
+}
+.img-one{
+  margin-left: 15px!important;
+}
+.accordion-button{
+  outline: none!important;
+  box-shadow: none!important;
+  border-radius: 12px!important;
+  width: 225px!important;
+  height: 32px!important;
+}
+.padding {
+  padding: 30px 15px;
+}
+.padding1 {
+  padding: 0 15px;
+}
+.Overview1{
+  margin-top: -15px!important;
+}
+.hr-line{
+  border-bottom: 1px solid #E5E7EB!important;
+  margin-top: -12px!important;
+}
+.change-color{
+  background-color: #F3F4F6;
+  border-radius: 12px!important;
+  width: 225px!important;
+  height: 31px!important;
+}
+.main-box{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center!important;
+  .main-in-box{
+    width: 1600px;
+    padding: 0;
+    margin: 0;
+    .display-flex{
+      display: flex;
+      .menu{
+        flex-direction: row;
+        align-items: flex-start;
+        width: 250px;
+        height: 1691px;
+        background: #FFFFFF;
+        .Overview{
+          margin-top: 10px;
+          display: flex;
+          cursor: pointer;
+          p{
+            margin-left: 15px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #0E9F6E;
+            margin-top: 4px;
+          }
+          .accordion{
+            border: none!important;
+            .accordion-item{
+              border: none!important;
+              outline: none!important;
+              box-shadow: none!important;
+              .accordion-header{
+                outline: none!important;
+                box-shadow: none!important;
+              }
+            }
+          }
+        }
+        .top-img-icon{
+          display: flex;
+          justify-content: center;
+          margin-top: 440%;
+          img{
+            cursor: pointer;
+            margin: 15px;
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width:940px) {
+  .accordion-button{
+    outline: none!important;
+    box-shadow: none!important;
+    border-radius: 12px!important;
+    width:180px!important;
+    height: 32px!important;
+  }
+  .change-color{
+    background-color: #F3F4F6;
+    border-radius: 12px!important;
+    width: 180px!important;
+    height: 31px!important;
+  }
+  .badge1{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 6px;
+  }
+  .main-box{
+    .main-in-box{
+      .display-flex{
+        .menu{
+          flex-direction: row;
+          align-items: flex-start;
+          width: 200px;
+          height: 1691px;
+          background: #FFFFFF;
+          .top-img-icon{
+            display: flex;
+            justify-content: center;
+            margin-top: 585%;
+            img{
+              cursor: pointer;
+              margin: 15px;
+              width: 18px;
+              height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:712px) {
+  .accordion-button{
+    outline: none!important;
+    box-shadow: none!important;
+    border-radius: 12px!important;
+    width:180px!important;
+    height: 32px!important;
+  }
+  .change-color{
+    background-color: #F3F4F6;
+    border-radius: 12px!important;
+    width: 180px!important;
+    height: 31px!important;
+  }
+  .badge1{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 6px;
+  }
+  .main-box{
+    .main-in-box{
+      .display-flex{
+        .menu{
+          display: none;
+          flex-direction: row;
+          align-items: flex-start;
+          width: 200px;
+          height: 1691px;
+          background: #FFFFFF;
+          .top-img-icon{
+            display: flex;
+            justify-content: center;
+            margin-top: 585%;
+            img{
+              cursor: pointer;
+              margin: 15px;
+              width: 18px;
+              height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

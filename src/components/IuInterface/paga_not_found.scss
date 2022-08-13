@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  a {
+    text-decoration: none!important;
+  }
+}
+
+.pagnotfpund {
+  background-color: #F3FAF7;
+  width: 100%;
+
+  .navbar404 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    padding: 0 20px;
+    border-bottom: 1px solid #E5E7EB;
+
+    .left {
+      display: flex;
+      width: 342px;
+
+      img {
+        width: 35px;
+        height: auto;
+      }
+
+      .navbarMenu {
+        margin-left: 32px;
+        width: 275px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5px;
+        a {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 150%;
+          text-align: center;
+          color: #6B7280;
+          cursor: pointer;
+          transition: 0.2s linear;
+
+          &:hover {
+            color: #0E9F6E;
+            transition: 0.2s linear;
+          }
+        }
+      }
+    }
+
+    .righte {
+      width: 133px;
+
+      img {
+        width: 18px;
+        height: auto;
+        margin-right: 9px;
+      }
+
+      a {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #6B7280;
+      }
+    }
+  }
+
+  .section {
+   overflow: hidden;
+    img {
+      display: flex;
+      width: 80%;
+      height: 600px;
+      margin: 35px auto 0 auto;
+
+    }
+
+    h2 {
+      margin-top: -12px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      text-align: center;
+      color: #111827;
+    }
+
+    p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      text-align: center;
+      color: #6B7280;
+      margin-top: 10px;
+    }
+
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 9px 17px;
+      width: 131px;
+      height: 39px;
+      border: none;
+      background: #0E9F6E;
+      border-radius: 12px;
+      flex: none;
+      order: 1;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 150%;
+      color: #FFFFFF;
+      margin: 23px auto 120px auto;
+    }
+  }
+}
